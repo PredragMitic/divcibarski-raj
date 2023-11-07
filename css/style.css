@@ -1156,7 +1156,7 @@ ul, ol {
   Room Section
 -----------------------*/
 
-.Sobe-section {
+.Apartmani-section {
 	padding-top: 0;
 	padding-bottom: 80px;
 }
@@ -2271,6 +2271,9 @@ ul, ol {
 /* Large Mobile: 480px */
 
 @media only screen and (max-width: 767px) {
+	.hero-text h1 {
+		font-size: 60px;
+	}
 	.testimonial-slider.owl-carousel .owl-nav {
 		display: none;
 	}
@@ -2309,6 +2312,9 @@ ul, ol {
 /* Small Mobile: 320px */
 
 @media only screen and (max-width: 479px) {
+	.hero-text h1 {
+		font-size: 50px;
+	}
 	.footer-section .copyright-option ul li {
 		margin-bottom: 5px;
 	}
