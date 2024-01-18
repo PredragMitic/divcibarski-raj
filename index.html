@@ -124,13 +124,13 @@
                 <div class="col-lg-6">
                     <div class="hero-text">
                         <h1>Divcibarski raj</h1>
-                        <p>Apartmani na Divcibarama.</p>
+                        <p id="apartman-type">Apartmani na Divcibarama.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-5 offset-xl-2 offset-lg-1">
                     <div class="booking-form">
                         <h3>Rezervisi sobu</h3>
-                        <form action="#">
+                        <form action="#" id="email-query">
                             <div class="check-date">
                                 <label for="date-in">Dolazak:</label>
                                 <input type="text" class="date-input" id="date-in">
@@ -144,8 +144,12 @@
                             <div class="select-option">
                                 <label for="guest">Gosti:</label>
                                 <select id="guest">
-                                    <option value="">2 Odrasla</option>
-                                    <option value="">3 Odrasla</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
                                 </select>
                             </div>
                             <div class="check-date">
@@ -245,11 +249,11 @@
                                     <tbody>
                                         <tr>
                                             <td class="r-o">Velicina:</td>
-                                            <td>25 m2</td>
+                                            <td>50 m2</td>
                                         </tr>
                                         <tr>
                                             <td class="r-o">Kapacitet:</td>
-                                            <td>3 osobe</td>
+                                            <td>6 osoba</td>
                                         </tr>
                                         <tr>
                                             <td class="r-o">Kreveti:</td>
@@ -274,7 +278,7 @@
                                     <tbody>
                                         <tr>
                                             <td class="r-o">Velicina:</td>
-                                            <td>25 m2</td>
+                                            <td>30 m2</td>
                                         </tr>
                                         <tr>
                                             <td class="r-o">Kapacitet:</td>
@@ -462,7 +466,10 @@
     </div>
     <!-- Search model end -->
 
-    <!-- Js Plugins -->
+    <!-- Js Plugins -->    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script src="js/check.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
